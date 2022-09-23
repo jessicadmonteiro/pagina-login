@@ -1,0 +1,35 @@
+.button{
+    background: transparent;
+    color: var(--color-primary);
+    border-radius: 8px;
+    border: solid 1px var(--color-primary);
+}
+.button:hover{
+    color: var(--color-grey-4);
+}
+
+.button_password{
+    background-color: transparent;
+    border: transparent;
+    margin-left: 210px;
+    font-size: 11px;
+}
+
+.buttonRemove_modal{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background: transparent;
+    border: solid 1px var(--color-primary);
+    color: var(--color-primary);
+}
+
+.button_login{
+    width: 240px;
+    height: 44px;
+}
+
+.button_modal{
+    width: 298px;
+    height: 44px;
+}

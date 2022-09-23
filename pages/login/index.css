@@ -1,1 +1,53 @@
-/* Desenvolva seu código aqui... */
+.box_sections{
+    display: flex;
+    position: absolute;
+    width: 714px;
+    height: 407px;
+    left: 25%;
+    top: 156px;
+    bottom: 156px;
+    background: var(--color-grey-7);
+    border-radius: 8px;
+}
+.box_brand_description{
+    width: 321px;
+    height: 407px;
+    background: var(--color-grey-6);
+    border-radius: 8px 0 0 8px;
+}
+
+.brand{
+    color: var(--color-primary);
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.text_h3{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text_p{
+    width: 204px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.box_form{
+    width: 393px;
+}
+.login_form{
+    width: 120px;
+    margin: 40px 0px 40px 77px;
+}
+
+.color_TagP{
+    color: var(--color-grey-4);
+}
+
+.color_title{
+    color: var(--color-grey-3);
+}

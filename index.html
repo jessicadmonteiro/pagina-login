@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./styles/button.css">
+    <link rel="stylesheet" href="./styles/input.css">
+    <link rel="stylesheet" href="./pages/login/index.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="box_sections">
+        <section class="box_brand_description">
+            <h1 class="brand">WillJess</h1>
+            <h3 class="text_h3 color_title">Seja bem vindo novamente </h3>
+            <p class="text_p color_TagP">Sabia que nossa plataforma foi pensada para você acessar a todo o momento e em qualquer local?</p>
+        </section>
+        <section class="box_form">
+            <h3 class="login_form color_title">Login</h3>
+            <p class="text_p color_TagP">Faça seu login para continuar</p>
+            <div class="box_input">
+                <input class="input_field input" type="email" placeholder="Email ou telefone">
+                <input class="input_field input" type="password" placeholder="Senha">
+            </div>
+            <button class="button_password color_TagP" data_modal="login"  >Esqueceu a senha?</button>
+            <div class="box_input">
+                <button class="button_login button">Login</button>
+            </div>
+        </section>
+    </div>
+    <div class="wrappe_modal" id="login">
+        <div class="box_modal">
+            <div class="box_title_remove">
+                <h4 class="title_modal color_title">Recuperação de senha</h4>
+                <button class="buttonRemove_modal" data_modal="login">X</button>
+            </div>
+            <p class="text_modal color_TagP">Informe o e-mail definido para recuperação de senha</p>
+            <input class="input_modal input" type="email" placeholder="Digite seu e-mail">
+            <button class="button_modal button" type="submit">Recuperar senha</button>
+        </div>
+    </div>
+    <script src="./scripts/modal.js"></script>
+</body>
+</html>
