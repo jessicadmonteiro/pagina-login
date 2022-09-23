@@ -1,17 +1,16 @@
 .box_sections{
     display: flex;
     position: absolute;
-    width: 714px;
-    height: 407px;
-    left: 25%;
-    top: 156px;
-    bottom: 156px;
+    width: 700px;
+    height: 400px;
+    left: calc(50vw - 350px);
+    top: calc(50vh - 200px);
     background: var(--color-grey-7);
     border-radius: 8px;
 }
 .box_brand_description{
     width: 321px;
-    height: 407px;
+    height: 400px;
     background: var(--color-grey-6);
     border-radius: 8px 0 0 8px;
 }
